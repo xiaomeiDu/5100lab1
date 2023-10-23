@@ -18,13 +18,13 @@ public class Part2 {
         }
 
         //Display the names with a nice-looking output
-        System.out.print("Names = {");
+        System.out.print("Names = { ");
         printArrayList(names);
-        System.out.println("}");
+        System.out.println(" }");
 
-        System.out.print("Names (switched) = {");
+        System.out.print("Names (switched) = { ");
         printArrayList(switchedNames);
-        System.out.println("}");
+        System.out.println(" }");
     }
 
     // Helper method to switch the first and last letters in a name

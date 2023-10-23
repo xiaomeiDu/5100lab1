@@ -9,9 +9,9 @@ public class Part1 {
             z[i] = Math.max(x[i], y[i]);
         }
 
-        System.out.print("Array x = {");
+        System.out.print("Array x = { ");
         printArray(x);
-        System.out.print("}\n");
+        System.out.print(" }\n");
 
         System.out.print("Array y = { ");
         printArray(y);
